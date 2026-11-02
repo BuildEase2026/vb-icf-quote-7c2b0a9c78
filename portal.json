@@ -173,7 +173,7 @@
    "note": "The Distributor BOM (Nudura forms + accessories, BuildEase pre-cut service fee; freight TBC by Tremco interco, not included), the 40 ft container load plans, external finishes and window tape take-off and the pallet stack sheets (12 container pallets, 3 x 40 ft).",
    "zip": {
     "file": "downloads/ES26-086 Quotation.zip",
-    "bytes": 599692,
+    "bytes": 599972,
     "count": 4
    },
    "docs": [
@@ -205,7 +205,7 @@
      "file": "downloads/ES26-086 Distributor BOM - Villa Bosnia.xlsx",
      "pages": 7,
      "thumb": "thumbs/ES26-086-QS-01.png",
-     "bytes": 294563,
+     "bytes": 295007,
      "number": "ES26-086-QS-01",
      "kind": "xlsx",
      "preview": "xls/bom.html",
@@ -366,7 +366,7 @@
  "toggles": [],
  "download_all": {
   "file": "downloads/ES26-086 Villa Bosnia - Nudura model house, Bosnia and Herzegovina - Quotation.zip",
-  "bytes": 1245181,
+  "bytes": 1245546,
   "count": 15,
   "title": "Download everything"
  }
