@@ -4,27 +4,66 @@
  "stages": [
   {
    "n": 1,
-   "title": "Ground floor walls and openings",
-   "desc": "Ground-floor walls on the slab: Nudura 8in Standard external walls and the monolithic internal load-bearing walls. The garage steps down to -0.700 with its walls to +2.400; the rear box rises to +4.015 and the kitchen walls run +0.750 to +3.950. All the windows, doors and the garage door are shown.",
+   "title": "Ground slab",
+   "desc": "RC ground slab / raft (by others, engineer): main slab top -0.100 under the ICF, garage slab top -0.700; 100 insulation and screed to the ground-floor FFL 0.000 (garage -0.600).",
    "files": [
     {
      "glb": "stage-1.glb",
      "part": null,
      "label": null,
-     "bytes": 2332716
+     "bytes": 6000
     }
    ]
   },
   {
    "n": 2,
-   "title": "Second floor walls and parapet",
-   "desc": "Second-floor walls from +3.100: the external walls rise to the +6.695 parapet top, and the internal load-bearing walls run +3.300 to +5.586 under the roof slab. Windows and doors are shown.",
+   "title": "Ground floor walls, windows, doors and partitions",
+   "desc": "Ground-floor walls on the slab: Nudura 8in Standard external walls and the monolithic internal load-bearing walls, with the stack joints. The garage steps down to -0.700 (walls to +2.400); the rear box rises to its +4.015 parapet; the outdoor-kitchen walls run +0.750 to +3.950. Alu-clad windows and glazed doors (RAL 7016), the sectional garage door, the 120 masonry partitions and the RC dog-leg stair (all by others, indicative).",
    "files": [
     {
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 1364912
+     "bytes": 2462864
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Second floor slab and the single-storey roofs",
+   "desc": "RC second-floor slab 200 (+3.100 to +3.300, bearing on the ICF core) with the stair void and 100 build-up to the 2F FFL +3.400; the garage roof slab (+2.200 to +2.400) and the rear box roof slab (+3.100 to +3.300) with their insulation and waterproofing, rear box parapet coping. By others / engineer.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 10284
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Second floor walls, windows, doors and partitions",
+   "desc": "Second-floor walls from +3.100: the external walls to the +6.695 parapet top, the internal load-bearing walls +3.300 to +5.586 under the roof slab, with the stack joints; windows, terrace doors and the 120 masonry partitions.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1455700
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Flat roof",
+   "desc": "RC roof slab 200 (soffit +5.585), insulation to falls and screed to +6.045, waterproofing and ballast to +6.245 inside the parapet, parapet coping at +6.695 to +6.725 (section 1-1). By others / engineer.",
+   "files": [
+    {
+     "glb": "stage-5.glb",
+     "part": null,
+     "label": null,
+     "bytes": 6804
     }
    ]
   }

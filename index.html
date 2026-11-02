@@ -281,7 +281,7 @@ function renderHome() {
   let h = `<div class="hero"><div><div class="note" style="margin:0">Nudura ICF · BuildEase Design Suite</div>
     <h1>${esc(proj.job)}</h1></div><div class="facts">${facts.map(([k, v]) => `<span>${k} <b>${esc(v)}</b></span>`).join("")}</div>
     ${all ? `<div class="dl"><a class="big" href="${esc(all.file)}" download>&#8681; Download everything (ZIP, ${all.count} files, ${mb(all.bytes)})</a></div>` : ""}</div>
-    <h2>3D model</h2><p class="note">SketchUp model, stage by stage as it is built. Villa Bosnia stage by stage: the ground-floor walls, then the second floor to the parapet. Every form is shown as the actual Nudura block, laid as it would be built.</p>${modelCard()}`;
+    <h2>3D model</h2><p class="note">SketchUp model, stage by stage as it is built. Villa Bosnia stage by stage: the ground slab, the ground-floor walls with their windows, doors, partitions and stair, the second-floor slab and single-storey roofs, the second floor, then the flat roof. Every form is shown as the actual Nudura block, laid as it would be built; slabs, roofs, joinery and partitions are drawn in good faith for coordination (by others).</p>${modelCard()}`;
   for (const g of P.groups) {
     if (!g.docs.length && !(g.downloads || []).length) continue;
     h += `${groupHead(g)}${panelIndex(g)}<div class="grid">${g.docs.map(d => docCard(g, d)).join("")}</div>${downloads(g)}`;
