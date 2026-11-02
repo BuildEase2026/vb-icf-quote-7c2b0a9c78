@@ -1,0 +1,254 @@
+{
+ "portal": "BuildEase ICF Project Environment",
+ "project": {
+  "client": "Tremco CPG Poland",
+  "job": "Villa Bosnia - Nudura model house, Bosnia and Herzegovina",
+  "number_prefix": "ES26-086",
+  "status": "QUOTATION",
+  "revision": "",
+  "model_title": "ES26-086 Villa Bosnia - Nudura model house, Bosnia and Herzegovina - Quotation"
+ },
+ "default_view": "stage-2",
+ "views": [
+  {
+   "id": "stage-1",
+   "kind": "stage",
+   "n": 1,
+   "title": "Ground floor walls and openings",
+   "desc": "Ground-floor walls on the slab: Nudura 8in Standard external walls and the monolithic internal load-bearing walls. The garage steps down to -0.700 with its walls to +2.400; the rear box rises to +4.015 and the kitchen walls run +0.750 to +3.950. All the windows, doors and the garage door are shown.",
+   "focus": false
+  },
+  {
+   "id": "stage-2",
+   "kind": "stage",
+   "n": 2,
+   "title": "Second floor walls and parapet",
+   "desc": "Second-floor walls from +3.100: the external walls rise to the +6.695 parapet top, and the internal load-bearing walls run +3.300 to +5.586 under the roof slab. Windows and doors are shown.",
+   "focus": false
+  },
+  {
+   "id": "elev-N",
+   "kind": "elevation",
+   "n": 2,
+   "title": "North elevation",
+   "dir": [
+    0.0,
+    0.12,
+    -1.0
+   ],
+   "desc": "Complete structure seen from the north."
+  },
+  {
+   "id": "elev-S",
+   "kind": "elevation",
+   "n": 2,
+   "title": "South elevation",
+   "dir": [
+    0.0,
+    0.12,
+    1.0
+   ],
+   "desc": "Complete structure seen from the south."
+  },
+  {
+   "id": "elev-E",
+   "kind": "elevation",
+   "n": 2,
+   "title": "East elevation",
+   "dir": [
+    1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the east."
+  },
+  {
+   "id": "elev-W",
+   "kind": "elevation",
+   "n": 2,
+   "title": "West elevation",
+   "dir": [
+    -1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the west."
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "title": "Ground floor walls and openings",
+   "desc": "Ground-floor walls on the slab: Nudura 8in Standard external walls and the monolithic internal load-bearing walls. The garage steps down to -0.700 with its walls to +2.400; the rear box rises to +4.015 and the kitchen walls run +0.750 to +3.950. All the windows, doors and the garage door are shown.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 2332716
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Second floor walls and parapet",
+   "desc": "Second-floor walls from +3.100: the external walls rise to the +6.695 parapet top, and the internal load-bearing walls run +3.300 to +5.586 under the roof slab. Windows and doors are shown.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1364912
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "quote",
+   "title": "Quotation",
+   "note": "The Distributor BOM (Nudura forms + accessories, BuildEase pre-cut service fee; haulage by Logistics quote), the external finishes and window tape take-off, the artic load plans and the pallet stack sheets.",
+   "zip": {
+    "file": "downloads/ES26-086 Quotation.zip",
+    "bytes": 630313,
+    "count": 4
+   },
+   "docs": [
+    {
+     "id": "ES26-086-LP-01",
+     "title": "Artic load plans - 3 loads in 2 deliveries",
+     "file": "docs/quote/ES26-086-LP-01 Artic load plans - 3 loads in 2 deliveries.pdf",
+     "pages": 3,
+     "thumb": "thumbs/ES26-086-LP-01.png",
+     "bytes": 35736,
+     "number": "ES26-086-LP-01",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-086-PS-01",
+     "title": "Pallet stack sheets - 21 pallets",
+     "file": "docs/quote/ES26-086-PS-01 Pallet stack sheets - 21 pallets.pdf",
+     "pages": 21,
+     "thumb": "thumbs/ES26-086-PS-01.png",
+     "bytes": 438288,
+     "number": "ES26-086-PS-01",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-086-QS-01",
+     "title": "Distributor BOM - Villa Bosnia (Excel)",
+     "file": "downloads/ES26-086 Distributor BOM - Villa Bosnia.xlsx",
+     "pages": 7,
+     "thumb": "thumbs/ES26-086-QS-01.png",
+     "bytes": 295134,
+     "number": "ES26-086-QS-01",
+     "kind": "xlsx",
+     "preview": "xls/bom.html",
+     "tabs": 7,
+     "subtitle": "Excel workbook - live preview, enter your rates on the rate card"
+    },
+    {
+     "id": "ES26-086-XI-01",
+     "title": "External finishes + window tape take-off (Excel)",
+     "file": "downloads/ES26-086 Finishes Take-off.xlsx",
+     "pages": 5,
+     "thumb": "thumbs/ES26-086-XI-01.png",
+     "bytes": 174294,
+     "number": "ES26-086-XI-01",
+     "kind": "xlsx",
+     "preview": "xls/finishes.html",
+     "tabs": 5,
+     "subtitle": "Excel workbook - Dryvit over ICF, illbruck ME110, live preview"
+    }
+   ],
+   "downloads": [
+    {
+     "file": "downloads/ES26-086 Distributor BOM - Villa Bosnia.xlsx",
+     "title": "Distributor BOM (Excel - enter your rates on the rate card) (0.1 MB)"
+    },
+    {
+     "file": "downloads/ES26-086 Finishes Take-off.xlsx",
+     "title": "External finishes + window tape take-off (Excel - Dryvit over ICF, illbruck ME110) (0.0 MB)"
+    }
+   ]
+  },
+  {
+   "id": "icf",
+   "title": "ICF drawings",
+   "note": "ICF general arrangements for each storey, the elevations and a section.",
+   "zip": {
+    "file": "downloads/ES26-086 ICF drawings.zip",
+    "bytes": 354660,
+    "count": 5
+   },
+   "docs": [
+    {
+     "id": "ES26-086-GA-01",
+     "title": "Ground Floor ICF General Arrangement",
+     "file": "docs/icf/ES26-086-GA-01 Ground Floor ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-086-GA-01.png",
+     "bytes": 69026,
+     "number": "ES26-086-GA-01",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-086-GA-02",
+     "title": "Second Floor ICF General Arrangement",
+     "file": "docs/icf/ES26-086-GA-02 Second Floor ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-086-GA-02.png",
+     "bytes": 65533,
+     "number": "ES26-086-GA-02",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-086-EL-01",
+     "title": "North and South Elevations",
+     "file": "docs/icf/ES26-086-EL-01 North and South Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-086-EL-01.png",
+     "bytes": 129543,
+     "number": "ES26-086-EL-01",
+     "view": "elev-N",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-086-EL-02",
+     "title": "East and West Elevations",
+     "file": "docs/icf/ES26-086-EL-02 East and West Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-086-EL-02.png",
+     "bytes": 113345,
+     "number": "ES26-086-EL-02",
+     "view": "elev-E",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-086-SE-01",
+     "title": "Section A-A",
+     "file": "docs/icf/ES26-086-SE-01 Section A-A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-086-SE-01.png",
+     "bytes": 64560,
+     "number": "ES26-086-SE-01",
+     "view": "stage-2",
+     "view_opts": {}
+    }
+   ]
+  }
+ ],
+ "focus": null,
+ "isolate_stages": false,
+ "toggles": [],
+ "download_all": {
+  "file": "downloads/ES26-086 Villa Bosnia - Nudura model house, Bosnia and Herzegovina - Quotation.zip",
+  "bytes": 1030859,
+  "count": 11,
+  "title": "Download everything"
+ }
+}

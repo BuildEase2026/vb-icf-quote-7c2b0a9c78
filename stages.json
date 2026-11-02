@@ -1,0 +1,32 @@
+{
+ "job": "Villa Bosnia - Nudura model house, Bosnia and Herzegovina",
+ "revision": "",
+ "stages": [
+  {
+   "n": 1,
+   "title": "Ground floor walls and openings",
+   "desc": "Ground-floor walls on the slab: Nudura 8in Standard external walls and the monolithic internal load-bearing walls. The garage steps down to -0.700 with its walls to +2.400; the rear box rises to +4.015 and the kitchen walls run +0.750 to +3.950. All the windows, doors and the garage door are shown.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 2332716
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Second floor walls and parapet",
+   "desc": "Second-floor walls from +3.100: the external walls rise to the +6.695 parapet top, and the internal load-bearing walls run +3.300 to +5.586 under the roof slab. Windows and doors are shown.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1364912
+    }
+   ]
+  }
+ ]
+}
